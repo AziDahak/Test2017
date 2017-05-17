@@ -22,8 +22,9 @@ namespace GitSample
             MessageBox.Show(DateTime.Now.ToString("MM/dd/yyyy"));
         }
 
-        private void test() 
+        private string HelloWorld()
         {
+            return "Hello World";
         }
     }
 }
