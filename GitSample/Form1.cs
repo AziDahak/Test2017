@@ -19,7 +19,11 @@ namespace GitSample
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            MessageBox.Show(DateTime.Now.ToString("MM/dd/yyyy")); 
+            MessageBox.Show(DateTime.Now.ToString("MM/dd/yyyy"));
+        }
+
+        private void test()
+        {
         }
     }
 }
